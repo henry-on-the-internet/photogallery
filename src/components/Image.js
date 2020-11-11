@@ -1,8 +1,10 @@
 import React from "react";
 
+
+
 const Image = ({ url, title }) => (
   <li>
-    <img src={url} alt={title} />
+    <img src={url} alt={title} title={title} />
   </li>
 );
 
